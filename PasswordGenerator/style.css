@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indianred;
+/*    background: linear-gradient(to right bottom, #f00, #fd0, #25c);*/
+}
+
+.passGenerator{
+    color: #fff;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background-color: crimson;
+    box-shadow: 0 0 25px #000;
+}
+
+.passGenerator h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-block: 8px;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputBox span{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.passBox{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-block: 8px;
+    color: #000;
+}
+
+#inputSlider:hover{
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    margin-block: 8px;
+}
+
+.row p,.row label{
+    flex-basis: 100%;
+    font-size: 18px;
+}
+
+.row input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.genBtn{
+    border: none;
+    outline: none;
+    background-color: #0038bb;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-block: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.genBtn:hover{
+    background-color: #0066ff;
+}
